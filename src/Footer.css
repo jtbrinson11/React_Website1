@@ -1,6 +1,6 @@
 .Footer {
 
-    min-height: 150px;
+    height: calc(100% - 100px);
     background-color: blue;
     display: flex;
     flex-direction: column;

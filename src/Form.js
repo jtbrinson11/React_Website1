@@ -1,7 +1,9 @@
+import React, { Component} from 'react';
 import './Form.css';
 
-    function Form() {
-        return (
+class Form extends Component {
+        render() {
+            return (
             <form className='Form'>
                 <label>
                     Full name: 
@@ -21,7 +23,8 @@ import './Form.css';
                 </label><br/>
                 <input type="submit" value="Submit"/>
             </form>
-        );
+        )
     }
+}
 
 export default Form;
